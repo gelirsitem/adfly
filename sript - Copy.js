@@ -1,0 +1,4 @@
+[lic]
+challenge=c0ddf0762db8f912ccf1ec3fe4796e1dDESKTOP-EOL1F92
+response=
+avalanche=6d661ab8183a62bd77d5e00c2317855b84866
