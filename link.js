@@ -1,6 +1,16 @@
 
+/**
+ * Get a random integer between `min` and `max`.
+ * 
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {int} a random integer
+ */
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
-
+var random_tm = getRandomInt(6000,10000);
 function clickerf(){
 	var element = document.getElementById("skip_button");
 	if ("click" in element){
@@ -15,4 +25,4 @@ function clickerf(){
 }
 
 
-setTimeout(clickerf,6000);
+setTimeout(clickerf,random_tm);
