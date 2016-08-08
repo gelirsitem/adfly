@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-var random_tm = getRandomInt(6000,10000);
+var random_tm = getRandomInt(3000,4000);
 function clickerf(){
 	var element = document.getElementById("skip_button");
 	if ("click" in element){
